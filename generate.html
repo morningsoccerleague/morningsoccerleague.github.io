@@ -1,0 +1,122 @@
+
+<html>
+    <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122366850-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+    
+          gtag('config', 'UA-122366850-1');
+      </script>
+    
+      <meta charset="UTF-8">
+      <title>Morning Soccer League - Rules</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/rules.css">
+      <script src="js/prefixfree.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+    </head>
+    <body>
+    
+    
+    <div class="container">
+        <div class="col-md-12">
+        <div class="col-md-6">
+            <h3>Home</h3>
+            <br>
+            <div class="form-group">
+                <!-- <div >
+                    <input type="text" class="form-control" id="home_team" placeholder="Team ID">
+                </div>
+                <br> -->
+                <div>
+                    <textarea class="form-control" rows="3" id="home_goals" placeholder="Goals"></textarea>
+                </div>
+                <br>
+                <div>
+                        <textarea class="form-control" rows="3" id="home_cautions" placeholder="Cautions"></textarea>
+                </div>
+                <br>
+                <div>
+                        <textarea class="form-control" rows="3" id="home_players" placeholder="Players"></textarea>
+                </div>
+                <br>
+                
+                <div>
+                        <textarea class="form-control" rows="3" id="home_keeper" placeholder="Keeper"></textarea>
+                </div>
+                <br>
+                <div>
+                            <input type="text" class="form-control" id="home_fouls"  placeholder="Fouls">
+                    </div>
+                    <br>
+                    <div>
+                            <input type="text" class="form-control" id="home_mom"  placeholder="Mom Player ID">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                    <h3>Away</h3>
+                    <br>
+                    <div class="form-group">
+                        <!-- <div >
+                            <input type="text" class="form-control" id="away_team" placeholder="Team ID">
+                        </div>
+                        <br> -->
+                        <div>
+                            <textarea class="form-control" rows="3" id="away_goals" placeholder="Goals"></textarea>
+                        </div>
+                        <br>
+                        <div>
+                                <textarea class="form-control" rows="3" id="away_cautions" placeholder="Cautions"></textarea>
+                        </div>
+                        <br>
+                        <div>
+                                <textarea class="form-control" rows="3" id="away_players" placeholder="Players"></textarea>
+                        </div>
+                        <br>
+                        
+                        <div>
+                                <textarea class="form-control" rows="3" id="away_keeper" placeholder="Keeper"></textarea>
+                        </div>
+                        <br>
+                        <div>
+                                    <input type="text" class="form-control" id="away_fouls"  placeholder="Fouls">
+                            </div>
+                            <br>
+                            <div>
+                                    <input type="text" class="form-control" id="away_mom"  placeholder="Mom Player ID">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <textarea class="form-control" rows="10" id="stats_tpl" placeholder="Template from Schedule.json"></textarea>
+            </div>
+            <div class="col-md-6">
+                <textarea class="form-control" rows="10" id="gen_data" placeholder="Paste this to Schedule.json"></textarea>
+            </div>
+            
+            
+            <br><br>
+        </div>
+        <div class="col-md-12" style="text-align: center;">
+            <br>
+                <button type="button" class="btn btn-primary" onclick="generateStats()">Generate</button>
+                <br> <br> <br> <br>
+        </div>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/generate.js"></script>
+    </body>
+    </html>
+    
