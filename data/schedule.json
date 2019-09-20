@@ -3638,7 +3638,7 @@
             "assist": 88
           }
         ],
-        "fouls": "0",
+        "fouls": 0,
         "cautions": [
           {
             "caution_id": 1,
@@ -3709,7 +3709,7 @@
             "assist": 34
           }
         ],
-        "fouls": "0",
+        "fouls": 0,
         "cautions": [],
         "players": [
           {
