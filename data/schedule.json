@@ -3614,10 +3614,12 @@
     "scheduled_time": "6:20 AM",
     "season": 3,
     "referees": [{
-      "team": 5
+      "team": 5,
+      "player" : 46
     },
       {
-        "team": 8
+        "team": 8,
+        "player" : 114
       }
     ],
     "completed": false,
@@ -3629,7 +3631,7 @@
       },
       "away": {
         "team": 9,
-        "goa ls": [],
+        "goals": [],
         "fouls": 0
       }
     }
@@ -3638,24 +3640,135 @@
     "scheduled_date": "9/13/2019",
     "scheduled_time": "6:20 AM",
     "season": 3,
-    "referees": [{
-      "team": 8
-    },
+    "referees": [
       {
-        "team": 5
+        "team": 8,
+        "player" : 117
+      },
+      {
+        "team": 5,
+        "player" : 32
       }
     ],
-    "completed": false,
+    "completed": true,
     "stats": {
       "home": {
         "team": 7,
-        "goals": [],
-        "fouls": 0
+        "goals": [
+          {
+            "minute": "20",
+            "player": 100,
+            "assist": 85
+          }
+        ],
+        "fouls": 0,
+        "cautions": [],
+        "players": [
+          {
+            "player": "6"
+          },
+          {
+            "player": "85"
+          },
+          {
+            "player": "56"
+          },
+          {
+            "player": "99"
+          },
+          {
+            "player": "49"
+          },
+          {
+            "player": "60"
+          },
+          {
+            "player": "100"
+          },
+          {
+            "player": "101"
+          },
+          {
+            "player": "63"
+          },
+          {
+            "player": "90"
+          },
+          {
+            "player": "31"
+          },
+          {
+            "player": "25"
+          }
+        ],
+        "keeper": [
+          {
+            "player": 31,
+            "saves": 8
+          }
+        ],
+        "mom": [
+          {
+            "player": "85"
+          }
+        ]
       },
       "away": {
         "team": 4,
-        "go als": [],
-        "fouls": 0
+        "fouls":0,
+        "goals": [
+          {
+            "minute": "52",
+            "player": 76,
+            "assist": 8
+          }
+        ],
+        "cautions": [],
+        "players": [
+          {
+            "player": "35"
+          },
+          {
+            "player": "41"
+          },
+          {
+            "player": "102"
+          },
+          {
+            "player": "69"
+          },
+          {
+            "player": "3"
+          },
+          {
+            "player": "76"
+          },
+          {
+            "player": "103"
+          },
+          {
+            "player": "104"
+          },
+          {
+            "player": "42"
+          },
+          {
+            "player": "105"
+          },
+          {
+            "player": "8"
+          },
+          {
+            "player": "53"
+          }
+        ],
+        "keeper": [
+          {
+            "player": 105,
+            "saves": 6
+          }
+        ],
+        "mom": []
       }
     }
   },
@@ -3663,24 +3776,169 @@
     "scheduled_date": "9/13/2019",
     "scheduled_time": "7:30 AM",
     "season": 3,
-    "referees": [{
-      "team": 9
-    },
+    "referees": [
+      {
+        "team": 9,
+        "player" : 28
+      },
       {
         "team": 7
       }
     ],
-    "completed": false,
+    "completed": true,
     "stats": {
       "home": {
         "team": 5,
-        "goals": [],
-        "fouls": 0
+        "goals": [
+          {
+            "minute": "3",
+            "player": 94,
+            "assist": 46
+          },
+          {
+            "minute": "6",
+            "player": 92,
+            "assist": 45
+          },
+          {
+            "minute": "8",
+            "player": 45,
+            "assist": 94
+          },
+          {
+            "minute": "23",
+            "player": 45
+          },
+          {
+            "minute": "25",
+            "player": 72,
+            "assist": 92
+          },
+          {
+            "minute": "28",
+            "player": 77
+          },
+          {
+            "minute": "33",
+            "player": 46
+          },
+          {
+            "minute": "40",
+            "player": 45,
+            "assist": 46
+          }
+        ],
+        "fouls": 0,
+        "cautions": [],
+        "players": [
+          {
+            "player": "46"
+          },
+          {
+            "player": "72"
+          },
+          {
+            "player": "91"
+          },
+          {
+            "player": "92"
+          },
+          {
+            "player": "70"
+          },
+          {
+            "player": "45"
+          },
+          {
+            "player": "77"
+          },
+          {
+            "player": "50"
+          },
+          {
+            "player": "29"
+          },
+          {
+            "player": "93"
+          },
+          {
+            "player": "94"
+          },
+          {
+            "player": "32"
+          }
+        ],
+        "keeper": [
+          {
+            "player": 77,
+            "saves": 2
+          },
+          {
+            "player": 94,
+            "saves": 2
+          }
+        ],
+        "mom": [
+          {
+            "player": "45"
+          }
+        ]
       },
       "away": {
         "team": 8,
-        "goals": [],
-        "fouls": 0
+        "goals": [
+          {
+            "minute": "38",
+            "player": 112
+          }
+        ],
+        "fouls": 0,
+        "cautions": [],
+        "players": [
+          {
+            "player": "112"
+          },
+          {
+            "player": "113"
+          },
+          {
+            "player": "26"
+          },
+          {
+            "player": "114"
+          },
+          {
+            "player": "115"
+          },
+          {
+            "player": "116"
+          },
+          {
+            "player": "117"
+          },
+          {
+            "player": "83"
+          },
+          {
+            "player": "118"
+          },
+          {
+            "player": "119"
+          },
+          {
+            "player": "120"
+          },
+          {
+            "player": "121"
+          }
+        ],
+        "keeper": [
+          {
+            "player": 83,
+            "saves": 9
+          }
+        ],
+        "mom": []
       }
     }
   }
